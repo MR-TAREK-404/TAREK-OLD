@@ -4,7 +4,7 @@
 import platform,os,time
 bit = platform.architecture()[0]
 if bit == '64bit':
-    import old_run_64
+    import old_clone_64
 elif bit == '32bit':
     import old_32
     #while True:
