@@ -4,7 +4,7 @@
 import platform,os,time
 bit = platform.architecture()[0]
 if bit == '64bit':
-    import old_64_paid
+    import old_paid_user_64
 elif bit == '32bit':
     #import tarek_old_32
     while True:
